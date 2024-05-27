@@ -11,8 +11,6 @@ def index(request):
 # def book_search(request):
 #     search_text = request.GET.get("search", "")
 #     return render(request, "review/search-results.html", {"search_text": search_text})
-#
-
 def book_list(request):
     books = Book.objects.all()
     # print(books)
